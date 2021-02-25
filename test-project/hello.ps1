@@ -8,7 +8,7 @@ param([int]$Count=50, [int]$DelayMilliseconds=50)
 function Write-Item($itemCount) {
     $i = 1
     while ($i -le $itemCount) {
-        $str = "Hello to the Netherlands #$i!"
+        $str = "Hello to the Netherlands, Happy Thursday #$i!"
         Write-Output $str
         $i = $i + 1
         Start-Sleep -Milliseconds $DelayMilliseconds
